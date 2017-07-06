@@ -18,7 +18,7 @@ The “editorial ad” element is included as a full page ad in the editorial co
 
 Conceptually, this ad element functions in much the same way as a full-page magazine advertisement.
 
-## Design consideration
+## Design considerations
 
 Each ad element will be loaded from a pre-defined URL in an iOS WebView when the user navigates to a screen in the app that contains an ad element.
 
