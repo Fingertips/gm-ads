@@ -4,23 +4,23 @@ Even though this document has been carefully prepared, the correctness of the in
 
 ## Overview
 
-GaultMillau 2018 will include containers for two different ad elements:
+The GaultMillau 2018 app will include containers for two different ad elements:
 
 ### 1. Home banner
 
-The “Home banner” element is included at the bottom of the app’s home view. When the user taps this ad element, a pre-defined URL will open in Mobile Safari.
+The “home banner” element is included at the bottom of the app’s home view. When the user taps this ad element, a pre-defined URL will open in Mobile Safari.
 
 Conceptually, this ad element can function as a “call to action” or a “start button” for the user to engage with a web-based experience outside of the app.
 
 ### 2. Editorial ad
 
-The “Editorial ad” element is included as a full page ad in the editorial content section of the app. 
+The “editorial ad” element is included as a full page ad in the editorial content section of the app. 
 
 Conceptually, this ad element functions in much the same way as a full-page magazine advertisement.
 
 ## Design consideration
 
-Each ad element will be loaded from a pre-defined URL in an iOS WebView when the user navigates to a view in the app that contains an ad element.
+Each ad element will be loaded from a pre-defined URL in an iOS WebView when the user navigates to a screen in the app that contains an ad element.
 
 ### Flexible containers requiring responsive design
 
@@ -32,7 +32,7 @@ The content for the “Home banner” element should display well inside a viewp
 
 ![Home banner aspect ratios](home_banner.png)
 
-The content for the “Editorial ad” element should display well should display well inside a viewport container sized at any aspect ratio between 1:4 and 4:3
+The content for the “Editorial ad” element should display well inside a viewport container sized at any aspect ratio between 1:4 and 4:3
 
 ![Home banner aspect ratios](editorial_ad.png)
 
@@ -40,11 +40,11 @@ The content for the “Editorial ad” element should display well should displa
 
 ### Motion and animation
 
-The “Home banner” element is included at the bottom of the app’s home view which contains the primary navigational elements of the app. Motion can of course be used to draw attention to the element, but should not distract from the usage of the app itself.
+The home banner element is included at the bottom of the app’s home view which contains its primary navigational elements. Motion can of course be used to draw attention to the element, but should not distract from the usage of the app itself.
 
-Subtle animation cues could be used to draw attention to the element and to provide hints that the element is tappable.
+Subtle animation cues could be used to draw attention to the ad element and to provide hints that the element is tappable.
 
-The “Editorial ad” element will be included as a single full page in between multiple pages of editorial content. As such, the visual experience should be reasonably straightforward in terms of motion, for example by using a minimal looped animation to provide visual interest or set the mood.
+The editorial ad element will be included as a single full page in between multiple pages of editorial content. As such, the visual experience should be reasonably straightforward in terms of motion, for example by using a minimal looped animation to provide visual interest or set the mood.
 
 It’s best to think of this element as a natural extension of the traditional full-page glossy magazine print ad. Don’t think of this element as a TV commercial, web video ad, or fully-fledged interactive experience.
 
