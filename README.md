@@ -1,1 +1,1 @@
-# gm-ads
+# GaultMillau 2018

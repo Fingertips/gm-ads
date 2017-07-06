@@ -1,0 +1,10 @@
+<svg width="620px" height="230px" viewbox="0 0 620 230" xmlns="http://www.w3.org/2000/svg">
+  <g style="fill: rgba(0,0,0,0.05); stroke: rgba(0,0,0,0.4); stroke-width: 1px;">
+    <rect x="10" y="10" width="200" height="100" />
+    <rect x="10" y="120" width="600" height="100" />
+  </g>
+  <g style="fill: rgba(0,0,0,0.8); font-family: sans-serif; font-size: 12px">
+    <text x="16" y="24">2:1</text>
+    <text x="16" y="134">6:1</text>
+  </g>
+</svg>
