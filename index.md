@@ -80,6 +80,8 @@ Don’t add video playback or audio effects. Do not use WebGL.
 
 ### Suggestions and recommendations
 
+The following suggestions and recommendations are non-normative, but might help with your implementation.
+
 * Make sure to test in Mobile Safari on actual iPhone and iPad hardware devices. Don’t rely on testing in desktop Safari or the iOS simulator only.
 * Use desktop Safari’s “Responsive Design Mode” to test how your responsive implementation adjusts to different viewport sizes.
 * Do not attempt to render bitmap graphics at 1:1 physical resolution. Try to find a good balance between visual quality and file size.
@@ -87,3 +89,4 @@ Don’t add video playback or audio effects. Do not use WebGL.
 * Use the `vmin` and `vmax` CSS3 relative units to make your layout adjust to extreme changes in viewport aspect ratio (e.g. going from portrait to landscape).
 * Take file size and loading performance into consideration. Shorter load times result in better engagement. Compress image assets using [ImageOptim](https://imageoptim.com/mac). Try reducing the size of transparent PNG images using [ImageAlpha](https://pngmini.com).
 * Use web fonts instead of text rendered as bitmap graphics. Test your implementation for accessibility, for example using VoiceOver.
+* Limit your use of CSS media queries. If you use CSS media queries, only use expressions that target viewport size (such as `min-width`, `max-width`, `min-height`, and `max- height`). Do not use expressions that target device dimensions or device orientation.
