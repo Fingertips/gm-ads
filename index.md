@@ -46,7 +46,7 @@ Subtle animation cues could be used to draw attention to the ad element and to p
 
 The editorial ad element will be included as a single full page in between multiple pages of editorial content. As such, the visual experience should be reasonably straightforward in terms of motion, for example by using a minimal looped animation to provide visual interest or set the mood.
 
-It’s best to think of this element as a natural extension of the traditional full-page glossy magazine print ad. Don’t think of this element as a TV commercial, web video ad, or fully-fledged interactive experience.
+It’s best to think of this element as a natural extension of a traditional full-page glossy magazine print ad. Don’t think of this element as a TV commercial, web video ad, or fully-fledged interactive experience.
 
 ### Initialization
 
