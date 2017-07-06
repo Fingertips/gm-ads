@@ -30,11 +30,11 @@ Both ads should therefore be designed and implemented as fully responsive elemen
 
 The content for the “Home banner” element should display well inside a viewport container sized at any aspect ratio between 2:1 and 6:1.
 
-![Home banner aspect ratios](https://rawgit.com/Fingertips/gm-ads/master/home_banner.svg)
+![Home banner aspect ratios](home_banner.png)
 
 The content for the “Editorial ad” element should display well should display well inside a viewport container sized at any aspect ratio between 1:4 and 4:3
 
-![Home banner aspect ratios](https://rawgit.com/Fingertips/gm-ads/master/editorial_ad.svg)
+![Home banner aspect ratios](editorial_ad.png)
 
 *Apple currently offers iOS devices with six different logical resolutions that can be used in both portrait and landscape orientation as well as a multitude of additional resolutions resulting from the Slide Over and Split View multitasking features.
 
