@@ -64,7 +64,7 @@ The user will not be able to interact with the content of the ad elements.
 
 The content for the ad element will be loaded dynamically as web resources by the app when needed. Hosting of these files and assets is the responsibility of the advertiser.
 
-The following three URLs should be delivered to the app developers:
+The following three URLs should be delivered for both the German and French language:
 
 1. The URL where the HTML page for the “Home banner” element is available.
 2. The URL where the HTML page for the “Editorial ad” element is available.
@@ -93,3 +93,4 @@ The following suggestions and recommendations are non-normative, but might help 
 * Use web fonts instead of text rendered as bitmap graphics. Test your implementation for accessibility, for example using VoiceOver.
 * Limit your use of CSS media queries. If you use CSS media queries, only use expressions that target viewport size (such as `min-width`, `max-width`, `min-height`, and `max- height`). Do not use expressions that target device dimensions or device orientation.
 * If you use a JS event hander as part of the responsive behavior, then make sure to trigger this handler not only when the page first loads, but also when the ad element viewport size changes.
+* Don’t duplicate asset files, but rather reference them from the different HTML files for each ad and language version. This saves space and bandwidth.
