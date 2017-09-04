@@ -1,4 +1,4 @@
-# GaultMillau 2018 ad guidelines
+# GaultMillau ad guidelines
 
 Even though this document has been carefully prepared, the correctness of the information provided can not be guaranteed and is subject to change. Please contact Thijs van der Vossen, thijs@fngtps.com in case you have any questions or concerns.
 
@@ -25,6 +25,8 @@ Each ad element will be loaded from a pre-defined URL in an iOS WebView when the
 ### Flexible containers requiring responsive design
 
 Because of the large number of possible viewport dimensions*, as well as the dynamic nature of a modern iOS application using Auto Layout, no fixed viewport sizes can be given for the ad element viewport containers.
+
+Please note that the size of the ad element viewport container might change after the ad has loaded, for example because the devices is rotated to another orientation, because the iPad multitasking features are being used, or even because the dynamic type size is changed.
 
 Both ads should therefore be designed and implemented as fully responsive elements using modern web development techniques.
 
@@ -90,3 +92,4 @@ The following suggestions and recommendations are non-normative, but might help 
 * Take file size and loading performance into consideration. Shorter load times result in better engagement. Compress image assets using [ImageOptim](https://imageoptim.com/mac). Try reducing the size of transparent PNG images using [ImageAlpha](https://pngmini.com).
 * Use web fonts instead of text rendered as bitmap graphics. Test your implementation for accessibility, for example using VoiceOver.
 * Limit your use of CSS media queries. If you use CSS media queries, only use expressions that target viewport size (such as `min-width`, `max-width`, `min-height`, and `max- height`). Do not use expressions that target device dimensions or device orientation.
+* If you use a JS event hander as part of the responsive behavior, then make sure to trigger this handler not only when the page first loads, but also when the ad element viewport size changes.
